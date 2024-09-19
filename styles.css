@@ -298,5 +298,10 @@ section {
     margin: 0; /* Remove margin */
     padding: 10; /* Remove padding */
 }
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    border: 1px solid #ddd; /* Optional for styling */
+}
 
 
